@@ -7,7 +7,7 @@ class SegundaPagina extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("Segunda Página", style: TextStyle(color: Colors.black)),
+        title: const Text("Segunda Página Dominguez 6°I", style: TextStyle(color: Colors.black)),
         backgroundColor: Colors.green,
       ),
       body: Center(

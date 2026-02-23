@@ -7,7 +7,7 @@ class TerceraPagina extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("Tercera Página", style: TextStyle(color: Colors.white)),
+        title: const Text("Tercera Página Dominguez 6°I", style: TextStyle(color: Colors.white)),
         backgroundColor: Colors.orange,
       ),
       body: Center(
@@ -18,7 +18,7 @@ class TerceraPagina extends StatelessWidget {
               width: 200,
               height: 200,
               decoration: BoxDecoration(
-                color: Colors.lightBlueAccent,
+                color: const Color.fromARGB(181, 255, 153, 0),
                 borderRadius: BorderRadius.circular(15),
                 boxShadow: const [
                   BoxShadow(color: Colors.black26, blurRadius: 10, offset: Offset(0, 5))
